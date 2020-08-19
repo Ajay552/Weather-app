@@ -1,0 +1,16 @@
+html,body{
+    margin: 0;
+    background: #dff9fb;
+}
+
+header{
+    text-align: center;
+    background: #130f40;
+    color: #dff9fb;
+    padding: 10px;
+}
+/* .head-water-icon{
+    height:50px;
+    width:50px;
+    margin: auto
+} */
