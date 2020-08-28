@@ -24,9 +24,9 @@ const weather_city = (city) => {
     weather(city)
         .then(data => {
             console.log(data)
-            const min = data.main.temp_min;
+            const min = data.main.temp_min ;
             const max = data.main.temp_max;
-            const wind = data.wind.speed * 3.6 + " km/hr";
+            const wind = data.wind.speed + " meter/sec";
             const humidity = data.main.humidity + " %";
             const city_name = data.name;
             const icon = data.weather[0].icon;
@@ -36,11 +36,12 @@ const weather_city = (city) => {
             // console.log(city_name)
             // console.log(icon);
             // console.log(main_descreption);
+            
             console.log(weather);
 
             // display weather
-            document.querySelector(".max-temp").textContent = min;
-            document.querySelector(".min-temp").textContent = max;
+            document.querySelector(".max-temp").textContent = max;
+            document.querySelector(".min-temp").textContent = min;
             document.querySelector(".wind-speed").textContent = wind;
             document.querySelector(".humidity").textContent = humidity;
             document.querySelector(".temp").textContent = temp;
