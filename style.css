@@ -9,12 +9,10 @@ header{
     color: #dff9fb;
     padding: 5px;
 }
+a{
+    color: #54a0ff;
+}
 
-/* .head-water-icon{
-    height:50px;
-    width:50px;
-    margin: auto
-} */
 .form{
     text-align: center;
     margin: 20px;
@@ -62,10 +60,6 @@ label{
     border: 4px white solid;
     border-radius: 10px;
 }
-/* .bg div:nth-child(even){
-    background: #f9ca24;
-    padding: 30px;
-} */
 .bg-1{
     grid-column: 2/3;
 }
@@ -77,9 +71,6 @@ label{
     grid-column: 2/3;
     background: #130f40;
 }
-/* .bg-5{
-    grid-column: 3/5;
-} */
 .bg-6{
     grid-column: 5/6;
 }
@@ -96,6 +87,15 @@ label{
 }
 .val{
     margin: 10px 0;
+}
+
+footer{
+    height:40px;
+    text-align: center;
+    background-color:#ffffff;
+    margin-top:142px;
+    padding:10px;
+    font-size: 14px;
 }
 
 @media screen and (max-width: 960px){
