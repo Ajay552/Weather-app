@@ -1,4 +1,4 @@
-const API_KEY = "523679ce8ff4ebc5496bf5648f2ef408";
+const API_KEY = "ce980fc1c54cfa777cbcaa9de4acbbee";
 const place = "#place";
 const form = document.querySelector(".form");
 const icon_m = document.querySelector(".center-icon")
